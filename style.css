@@ -1,0 +1,76 @@
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+
+.cv-container {
+    background-color: white;
+    box-shadow: 0 3px 40px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.profile-photo-frame {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    border: 5px solid #fff;
+    outline: 2px solid #000000;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.section-title {
+    border-bottom: 2px solid #0d6efd;
+    /* border-bottom: 2px solid #1fdc1fd2; */
+    /* color: #1fdc1fd2; */
+    color: #0d6efd;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.inactive-flag img {
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+.inactive-flag img:hover {
+    opacity: 1;
+}
+
+
+.skill-bubble {
+    background-color: #e9ecef; 
+    color: #0d6efd;            
+    padding: 8px 16px;
+    border-radius: 40px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: 1px solid #dee2e6;
+    transition: all 0.3s ease;
+    cursor: default;
+    display: inline-block;
+}
+
+.skill-bubble:hover {
+    background-color: #0d6efd;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(13, 110, 253, 0.2);
+    border-color: #0d6efd;
+    cursor: pointer;
+}
+
+.tech-backend {
+color: #6f42c1;
+border-color: #6f42c1;
+}
+
+.skill-bubble.tech-backend:hover {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+    color: white;
+}
