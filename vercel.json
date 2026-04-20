@@ -6,6 +6,14 @@
   },
   "routes": [
     {
+      "src": "/style.css",
+      "dest": "/style.css"
+    },
+    {
+      "src": "/cover-photo.jpg",
+      "dest": "/cover-photo.jpg"
+    },
+    {
       "src": "/(.*)",
       "dest": "/api/index.php"
     }
