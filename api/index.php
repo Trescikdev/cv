@@ -6,7 +6,7 @@
     <title><?php echo $texts['title']; ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="style.css"> -->
-     <link rel="stylesheet" href="../style.css?v=<?php echo time(); ?>">
+     <link rel="stylesheet" href="/style.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body>
@@ -41,7 +41,7 @@
                 <div class="col-md-4 border-end pe-md-4">
                     <div class="text-center mb-4">
                         <div class="profile-photo-frame">
-                            <img src="../cover-photo.jpg" alt="Samuel Šútora" class="img-fluid">
+                            <img src="/cover-photo.jpg" alt="Samuel Šútora" class="img-fluid">
                         </div>
                     </div>
                     
