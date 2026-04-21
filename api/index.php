@@ -56,7 +56,7 @@
                         </div>
                         <div class="contact-links">
                             <a href="https://www.linkedin.com/in/samuel-šútora-917165368/" class="d-block mb-1 text-decoration-none"><i class="bi bi-linkedin me-2"></i>LinkedIn</a>
-                            <a href="#" class="d-block mb-1 text-decoration-none"><i class="bi bi-github me-2"></i>GitHub</a>
+                            <a href="https://github.com/Trescikdev" class="d-block mb-1 text-decoration-none"><i class="bi bi-github me-2"></i>GitHub</a>
                         </div>
                     </section>
                 </div>
@@ -68,8 +68,16 @@
                     </header>
 
                     <section class="mb-4">
-                        <h2 class="section-title"><?php echo $texts['summary']; ?></h2>
-                        <p>...</p>
+                        <h2 class="section-title"><?php echo $texts['core_values']; ?></h2>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="skill-bubble tech-backend">Komunikácia</span>
+                            <span class="skill-bubble tech-backend">Úprimnosť</span>
+                            <span class="skill-bubble">Iniciatíva</span>
+                            <span class="skill-bubble">Zodpovednosť</span>
+                            <span class="skill-bubble tech-backend">Flexibilita</span>
+                            <span class="skill-bubble">Tímovosť</span>
+                            <span class="skill-bubble tech-backend">Profesionalita</span>
+                        </div>
                     </section>
 
                     <section class="mb-4">
