@@ -70,13 +70,13 @@
                     <section class="mb-4">
                         <h2 class="section-title"><?php echo $texts['core_values']; ?></h2>
                         <div class="d-flex flex-wrap gap-2">
-                            <span class="skill-bubble tech-backend">Komunikácia</span>
-                            <span class="skill-bubble tech-backend">Úprimnosť</span>
-                            <span class="skill-bubble">Iniciatíva</span>
-                            <span class="skill-bubble">Zodpovednosť</span>
-                            <span class="skill-bubble tech-backend">Flexibilita</span>
-                            <span class="skill-bubble">Tímovosť</span>
-                            <span class="skill-bubble tech-backend">Profesionalita</span>
+                            <span class="skill-bubble tech-backend"><?php echo $texts['communication']; ?></span>
+                            <span class="skill-bubble tech-backend"><?php echo $texts['honesty']; ?></span>
+                            <span class="skill-bubble"><?php echo $texts['initiative']; ?></span>
+                            <span class="skill-bubble"><?php echo $texts['accountability']; ?></span>
+                            <span class="skill-bubble tech-backend"><?php echo $texts['flexibility']; ?></span>
+                            <span class="skill-bubble"><?php echo $texts['team-oriented']; ?></span>
+                            <span class="skill-bubble tech-backend"><?php echo $texts['professionality']; ?></span>
                         </div>
                     </section>
 
