@@ -64,7 +64,7 @@
                 <div class="col-md-8 ps-md-4">
                     <header class="text-md-start text-center mb-5">
                         <h1 class="display-4 fw-bold">Samuel Šútora</h1>
-                        <p class="lead text-primary"><?php echo $texts['last_updated']; ?> APR 2026</p>
+                        <p class="lead text-primary"><?php echo $texts['last_updated']; ?> JUN 2026</p>
                     </header>
 
                     <section class="mb-4">
@@ -87,6 +87,32 @@
                             <div class="d-flex justify-content-between align-items-start w-100">
                                 <div class="d-flex align-items-center">
                                     <div>
+                                        <h5 class="mb-0 fw-bold"><?php echo $texts['internship'] ?></h5>
+                                        <div class="text-primary mb-0 green">Continental Tires Slovakia s.r.o</div>
+                                    </div>
+                                    <button class="btn btn-link p-0 ms-3 text-decoration-none collapse-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#detailsWebAdmin">
+                                        <i class="bi bi-plus-circle-fill text-primary toggle-icon" style="font-size: 1.2rem;"></i>
+                                    </button>
+                                </div>
+                                <span class="job-date text-uppercase">Jun 2026 – <?php echo $texts['present']; ?></span>
+                            </div>
+
+                            <ul class="mt-2 mb-1">
+                                <li>MATLAB/Python</li>
+                            </ul>
+
+                            <div class="collapse" id="detailsWebAdmin">
+                                <div class="mt-2 text-muted small p-2 bg-light rounded">
+                                    <?php echo $texts['more_info_webadmin']; ?>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="mb-4">
+                            <div class="d-flex justify-content-between align-items-start w-100">
+                                <div class="d-flex align-items-center">
+                                    <div>
                                         <h5 class="mb-0 fw-bold">Web admin</h5>
                                         <div class="text-primary mb-0 green">Hulman.sk</div>
                                     </div>
@@ -94,7 +120,7 @@
                                         <i class="bi bi-plus-circle-fill text-primary toggle-icon" style="font-size: 1.2rem;"></i>
                                     </button>
                                 </div>
-                                <span class="job-date text-uppercase">Sep 2025 – <?php echo $texts['present']; ?></span>
+                                <span class="job-date text-uppercase">Sep 2025 – Jun 2026; ?></span>
                             </div>
 
                             <ul class="mt-2 mb-1">

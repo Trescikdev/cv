@@ -55,7 +55,8 @@ $translations = [
         'accountability'=> 'Accountability',
         'flexibility'=> 'Flexibility',
         'team-oriented'=> 'Team Player',
-        'professionality'=> 'Professionality'
+        'professionality'=> 'Professionality',
+        'internship' => 'Internship'
     ],
     'sk' => [
         'title' => 'Samuel Šútora CV',
@@ -96,7 +97,8 @@ $translations = [
         'accountability'=> 'Zodpovednosť',
         'flexibility'=> 'Flexibilita',
         'team-oriented'=> 'Tímovosť',
-        'professionality'=> 'Profesionalita'
+        'professionality'=> 'Profesionalita',
+        'internship' => 'Stáž'
         ]
 ];
 
