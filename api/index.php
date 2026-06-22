@@ -120,7 +120,7 @@
                                         <i class="bi bi-plus-circle-fill text-primary toggle-icon" style="font-size: 1.2rem;"></i>
                                     </button>
                                 </div>
-                                <span class="job-date text-uppercase">Sep 2025 – Jun 2026; ?></span>
+                                <span class="job-date text-uppercase">Sep 2025 – Jun 2026</span>
                             </div>
 
                             <ul class="mt-2 mb-1">
